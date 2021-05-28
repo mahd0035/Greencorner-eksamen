@@ -7,7 +7,7 @@
 body{
   display: grid;
   grid-template-columns: 100% ;
-  grid-template-rows: 10% 25% auto 25% 10%;
+  grid-template-rows: 10% 20% auto 35% 8%;
   grid-template-areas:
   "header"
   "section"
@@ -41,14 +41,20 @@ html, body{
   nav img{
     width: 80px;
     height: 100%;
+    margin-top: 20px;
     grid-area: header;
   }
 
 /*Greencorner blikfangsbillede*/
 
   section{
-    background-color: tomato;
     grid-area: section;
+
+  }
+
+  section img{
+    width: 100%;
+    background-size: contain;
   }
 
   /*indholdet omkring ugens tilbud*/
@@ -59,8 +65,12 @@ html, body{
 
   /*lidt tekst omkring Greencorner*/
   article{
-    background-color: violet;
     grid-area: article;
+    margin: auto 0;
+  }
+
+  article h2{
+    text-align: center;
   }
 
   /*FOOTEREN*/
