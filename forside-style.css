@@ -69,10 +69,7 @@ body{
     margin: 5px;
   }
 
-  .tilbudpic{
-   
-  }
-  
+ 
   main img{
     width: 140px;
     height: 140%;
@@ -84,7 +81,7 @@ body{
   /*lidt tekst omkring Greencorner*/
   article{
     grid-area: article;
-    margin: auto 0;
+    
     background-color: #F2F0CE;
   }
 
@@ -94,9 +91,8 @@ body{
   }
 
   article p{
-    margin: 15px;
-    font-size: 0.9rem;
-    margin-bottom: 20px;
+    margin: 25px;
+    font-size: 1.1rem;
   }
 
   /*FOOTEREN*/
