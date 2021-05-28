@@ -1,4 +1,41 @@
 *{
     margin: 0;
     padding: 0;
+    background-color: #F2F0CE;
 }
+
+/*fælles header*/
+
+header{
+background-color:#F2F0CE; 
+width: 100%;
+height: 90px;
+}
+
+nav{
+    display: block;
+    position: fixed;
+}
+
+nav img{
+    width: 35%;
+}
+
+a{
+    text-decoration: none;
+    list-style: none;
+    list-style-type: none;
+    justify-content: space-around;
+    font-size: large;
+    text-align: center;
+}
+
+
+.nav-bar{
+    display: flex; 
+
+}
+
+
+
+
