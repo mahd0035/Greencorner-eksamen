@@ -3,13 +3,49 @@
     padding: 0;
 }
 
-{
+.grid-container-produkter{
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 0.1fr 1fr 1fr 0.1fr ;
   grid-template-areas:
   "header"
-  "section"
-  "main"
+  "banner"
+  "produkter"
   "footer";
 }
+
+/*Styling af banner START*/
+header{
+  grid-area: header;
+  background-color: red;
+}
+
+section {
+  grid-area: banner;
+  background-color: blueviolet;
+}
+
+section img{
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  grid-area: banner;
+}
+
+section h1{
+  position: relative;
+  text-align: center;
+
+}
+
+main{
+  background-color: purple;
+  grid-area: produkter;
+}
+
+footer{
+  background-color: pink;
+  grid-area: footer;
+}
+
+
