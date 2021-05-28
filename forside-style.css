@@ -1,12 +1,14 @@
 *{
     margin: 0;
     padding: 0;
+    background-color:#F2F0CE;
 }
 
 body{
   display: grid;
   grid-template-columns: 100% ;
-  grid-template-rows: 10% 20% 40% 20% 10%;
+  grid-template-rows: 10% 20% 40% 15% 5%;
+  grid-gap: 22px;
   grid-template-areas:
   "header"
   "section"
@@ -16,9 +18,7 @@ body{
 }
 
 /*Header navigation*/
-html, body{
-    height: 100%;
-  }
+
   header{
     grid-area: header;
     background-color: #F2F0CE;
@@ -71,6 +71,12 @@ html, body{
     margin: 5px;
   }
 
+  main img{
+    width: 140px;
+    height: 140%;
+    padding: 20px 20px; 
+  }
+
 
   /*lidt tekst omkring Greencorner*/
   article{
@@ -86,11 +92,12 @@ html, body{
   article p{
     margin: 15px;
     font-size: 0.9rem;
+    margin-bottom: 20px;
   }
 
   /*FOOTEREN*/
   footer{
-    background-color:#F2F0CE;
+    background-color:#301818;
     grid-area: footer;
   }
 
