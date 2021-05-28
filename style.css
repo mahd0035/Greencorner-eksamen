@@ -25,18 +25,28 @@ section {
   background-color: blueviolet;
 }
 
+section h1{
+  position: absolute;
+  color: #ffffff;
+  height: 100px;
+  width: 100px;
+  left: 50%;
+  margin-left: -100px;
+  top: 20%;
+  margin-top: -80px;
+  font-size: 50px;
+  z-index: 1;
+}
+
 section img{
   width: 100%;
   height: auto;
   background-size: cover;
   grid-area: banner;
+  filter:brightness(40%);
 }
 
-section h1{
-  position: relative;
-  text-align: center;
 
-}
 
 main{
   background-color: purple;
