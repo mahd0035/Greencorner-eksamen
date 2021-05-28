@@ -19,6 +19,10 @@ body{
 html, body{
     height: 100%;
   }
+  header{
+    grid-area: header;
+    background-color: #F2F0CE;
+  }
   
   header nav{
     display: flex;
@@ -58,7 +62,7 @@ html, body{
 
   /*indholdet omkring ugens tilbud*/
   main{
-    background-color: teal;
+    background-color: #F2F0CE;
     grid-area: main;
   }
 
@@ -72,7 +76,7 @@ html, body{
   article{
     grid-area: article;
     margin: auto 0;
-    background-color: darkgrey;
+    background-color: #F2F0CE;
   }
 
   article h2{
@@ -86,7 +90,7 @@ html, body{
 
   /*FOOTEREN*/
   footer{
-    background-color: yellowgreen;
+    background-color:#F2F0CE;
     grid-area: footer;
   }
 
