@@ -1,14 +1,12 @@
 *{
     margin: 0;
     padding: 0;
-    background-color:#F2F0CE;
 }
 
 body{
   display: grid;
-  grid-template-columns: 100% ;
-  grid-template-rows: 10% 20% 40% 15% 5%;
-  grid-gap: 22px;
+  grid-template-columns: 100%;
+  grid-template-rows: 5% 20% 35% 25% 15%;
   grid-template-areas:
   "header"
   "section"
@@ -71,11 +69,16 @@ body{
     margin: 5px;
   }
 
+  .tilbudpic{
+   
+  }
+  
   main img{
     width: 140px;
     height: 140%;
     padding: 20px 20px; 
   }
+
 
 
   /*lidt tekst omkring Greencorner*/
@@ -87,6 +90,7 @@ body{
 
   article h2{
     text-align: center;
+    margin: 15px;
   }
 
   article p{
