@@ -6,7 +6,7 @@
 body{
   display: grid;
   grid-template-columns: 100% ;
-  grid-template-rows: 10% 20% 40% 35% 8%;
+  grid-template-rows: 10% 20% 40% 20% 10%;
   grid-template-areas:
   "header"
   "section"
@@ -62,11 +62,17 @@ html, body{
     grid-area: main;
   }
 
+  main h2{
+    text-align: center;
+    margin: 5px;
+  }
+
 
   /*lidt tekst omkring Greencorner*/
   article{
     grid-area: article;
     margin: auto 0;
+    background-color: darkgrey;
   }
 
   article h2{
