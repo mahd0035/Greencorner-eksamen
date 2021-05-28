@@ -1,13 +1,12 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: #F2F0CE;
 }
 
 body{
   display: grid;
   grid-template-columns: 100% ;
-  grid-template-rows: 10% 20% auto 35% 8%;
+  grid-template-rows: 10% 20% 40% 35% 8%;
   grid-template-areas:
   "header"
   "section"
@@ -49,12 +48,12 @@ html, body{
 
   section{
     grid-area: section;
-
   }
 
   section img{
     width: 100%;
-    background-size: contain;
+    height: 100%;
+    grid-area: section;
   }
 
   /*indholdet omkring ugens tilbud*/
@@ -62,6 +61,7 @@ html, body{
     background-color: teal;
     grid-area: main;
   }
+
 
   /*lidt tekst omkring Greencorner*/
   article{
