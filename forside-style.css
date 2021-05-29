@@ -84,8 +84,8 @@ body{
     justify-content: center;
  }
  .innerpic {
-    flex: 25%;
-    max-width: 25%;
+    flex: 20%;
+    max-width: 35%;
     padding: 0 4px;
  }
  .innerpic img {
@@ -99,9 +99,9 @@ body{
 
  .overlaytext {
   position: absolute;
-  bottom: 0; 
   background: rgba(255, 255, 255, 0.9);
   width: 41%;
+  margin-top: 65px;
   transition: .3s ease;
   opacity:0;
   color: black;
@@ -109,6 +109,10 @@ body{
   padding: 15px;
   margin-left: 9px;
   text-align: center;
+}
+
+.overlaytext h4{
+  margin-bottom: 8px;
 }
 
 .innerpic:hover .overlaytext {
