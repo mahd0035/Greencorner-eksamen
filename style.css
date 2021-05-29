@@ -118,7 +118,44 @@ main{
   font-size: 18px;
 }
 
-.div-argurk button:hover {
+
+
+
+
+
+.div-kiwi button:hover {
+  opacity: 0.7;
+}
+
+
+.div-kiwi{
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  background-color: cornsilk;
+}
+
+.div-kiwi img{
+  width: 100%;
+  transition: transform .2s;
+}
+
+.div-kiwi img:hover{
+  transform: scale(1.05);
+}
+
+
+.div-kiwi button{
+  border: none;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  width: 100%;
+  font-size: 18px;
+}
+
+.div-kiwi button:hover {
   opacity: 0.7;
 }
 /*footer START*/
