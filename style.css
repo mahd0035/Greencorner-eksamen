@@ -6,7 +6,7 @@
 .grid-container-produkter{
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 0.1fr 1fr 1fr 0.1fr ;
+  grid-template-rows: 0.1fr 0.2fr 1fr 0.1fr ;
   grid-template-areas:
   "header"
   "banner"
@@ -32,8 +32,7 @@ section h1{
   width: 100px;
   left: 50%;
   margin-left: -100px;
-  top: 20%;
-  margin-top: -80px;
+  margin-top: 30px;
   font-size: 50px;
   z-index: 1;
 }
@@ -56,7 +55,6 @@ main{
 }
 
 .div-tomat{
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 300px;
   margin: auto;
   text-align: center;
@@ -91,6 +89,38 @@ main{
   opacity: 0.7;
 }
 
+/*Argurk START*/
+
+.div-argurk{
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  background-color: cornsilk;
+}
+
+.div-argurk img{
+  width: 100%;
+  transition: transform .2s;
+}
+
+.div-argurk img:hover{
+  transform: scale(1.05);
+}
+
+
+.div-argurk button{
+  border: none;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  width: 100%;
+  font-size: 18px;
+}
+
+.div-argurk button:hover {
+  opacity: 0.7;
+}
 /*footer START*/
 footer{
   background-color: pink;
