@@ -58,9 +58,6 @@ main{
   grid-area: produkter;
 }
 
-main div{
-  
-}
 
 .div-tomat{
   max-width: 300px;
@@ -167,7 +164,46 @@ main div{
   font-size: 18px;
 }
 
-.div-kiwi button:hover {
+.div-banan button:hover {
+  background-color: #ABD904;
+}
+
+
+
+
+.div-banan button:hover {
+  background-color: #ABD904;
+}
+
+
+.div-banan{
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  background-color: cornsilk;
+}
+
+.div-banan img{
+  width: 100%;
+  transition: transform .2s;
+}
+
+.div-banan img:hover{
+  transform: scale(1.05);
+}
+
+
+.div-banan button{
+  border: none;
+  padding: 12px;
+  color: white;
+  background-color: #03A63C;
+  text-align: center;
+  width: 100%;
+  font-size: 18px;
+}
+
+.div-banan button:hover {
   background-color: #ABD904;
 }
 /*footer START*/
