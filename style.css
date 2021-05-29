@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+body{
+  background-color: #F2F0CE;
+}
 
 .grid-container-produkter{
   display: grid;
@@ -17,7 +20,6 @@
 /*Styling af banner START*/
 header{
   grid-area: header;
-  background-color: red;
 }
 
 section {
@@ -45,13 +47,19 @@ section img{
   filter:brightness(40%);
 }
 
+
 button{
   cursor: pointer;
 }
+
 /*Styling af produkter og varer START*/
 main{
   background-color: purple;
   grid-area: produkter;
+}
+
+main div{
+  
 }
 
 .div-tomat{
@@ -79,14 +87,14 @@ main{
   border: none;
   padding: 12px;
   color: white;
-  background-color: #000;
+  background-color: #03A63C;
   text-align: center;
   width: 100%;
   font-size: 18px;
 }
 
 .div-tomat button:hover {
-  opacity: 0.7;
+  background-color: #ABD904;
 }
 
 /*Argurk START*/
@@ -112,10 +120,14 @@ main{
   border: none;
   padding: 12px;
   color: white;
-  background-color: #000;
+  background-color: #03A63C;
   text-align: center;
   width: 100%;
   font-size: 18px;
+}
+
+.div-argurk button:hover {
+  background-color: #ABD904;
 }
 
 
@@ -124,7 +136,7 @@ main{
 
 
 .div-kiwi button:hover {
-  opacity: 0.7;
+  background-color: #ABD904;
 }
 
 
@@ -149,14 +161,14 @@ main{
   border: none;
   padding: 12px;
   color: white;
-  background-color: #000;
+  background-color: #03A63C;
   text-align: center;
   width: 100%;
   font-size: 18px;
 }
 
 .div-kiwi button:hover {
-  opacity: 0.7;
+  background-color: #ABD904;
 }
 /*footer START*/
 footer{
