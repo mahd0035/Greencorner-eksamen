@@ -87,6 +87,10 @@ body{
     padding: 10px;
  }
 
+ /*nummer 2 række af billeder*/
+
+ 
+
  .overlaytext {
   position: absolute;
   bottom: 0; 
@@ -96,7 +100,7 @@ body{
   opacity:0;
   color: black;
   font-size: 15px;
-  padding: 15px;
+  padding: 5px;
   margin-left: 9px;
   text-align: center;
 }
@@ -105,10 +109,16 @@ body{
   opacity: 1;
 }
 
+.innerpic button{
+  border-radius: 5px;
+  padding: 5px;
+  background: #03A63C;
+  color: white;
+}
+
   /*lidt tekst omkring Greencorner*/
   article{
     grid-area: article;
-    
     background-color: #F2F0CE;
   }
 
