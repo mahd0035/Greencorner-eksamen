@@ -46,13 +46,52 @@ section img{
   filter:brightness(40%);
 }
 
-
-
+button{
+  cursor: pointer;
+}
+/*Styling af produkter og varer START*/
 main{
   background-color: purple;
   grid-area: produkter;
 }
 
+.div-tomat{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  background-color: cornsilk;
+}
+
+.div-tomat img{
+  width: 100%;
+  transition: transform .2s;
+}
+
+.div-tomat img:hover{
+  transform: scale(1.05);
+}
+
+.pris{
+  color: grey;
+  font-size: 22px;
+}
+
+.div-tomat button{
+  border: none;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  width: 100%;
+  font-size: 18px;
+}
+
+.div-tomat button:hover {
+  opacity: 0.7;
+}
+
+/*footer START*/
 footer{
   background-color: pink;
   grid-area: footer;
