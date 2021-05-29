@@ -69,12 +69,22 @@ body{
     margin: 5px;
   }
 
- 
-  main img{
-    width: 140px;
-    height: 140%;
-    padding: 20px 20px; 
-  }
+
+  .tilbudpic {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+ }
+ .innerpic {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+ }
+ .innerpic img {
+    margin-top: 8px;
+    width: 100%;
+    padding: 10px;
+ }
 
 
 
@@ -101,5 +111,14 @@ body{
     grid-area: footer;
   }
 
+
+
+  @media screen and (max-width: 800px) {
+    
+    .innerpic {
+       flex: 50%;
+       max-width: 50%;
+    }
+ }
 
 
