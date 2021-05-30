@@ -8,6 +8,7 @@
         <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
         <title>Forside</title>
         <link rel="stylesheet" href="forside-style.css"> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
       </head> 
         
  <body>  
@@ -72,6 +73,18 @@
 
 </div>
 
+
+<!--jqury animation for hover effekt over ugens tlbud-->
+
+<script> 
+  $(document).ready(function(){
+    $("innerpic").hover(function(){
+      $("overlaytext").animate({
+        height: 'toggle'
+      });
+    });
+  });
+  </script> 
 
 
 </main>
