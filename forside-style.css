@@ -171,9 +171,19 @@ body{
 
     header nav{
       justify-content: space-evenly;
+      margin-top: 15px;
   
     }
+
+    nav img{
+      width: 120px;
+    }
     
+    nav button{
+      margin-top: 10px;
+      height: 50px;
+      width: 100px;
+    }
     section{
       height: 390px;
 
@@ -182,6 +192,10 @@ body{
     section img{
       display: inline-block;
       margin: 0 auto;
+    }
+
+    main h2{
+      margin-top: 15px;
     }
   
     .innerpic {
@@ -198,10 +212,19 @@ body{
    .overlaytext{
      max-width: 28%;
      margin-top: 250px;
-     
-
    }
 
+   article h2{
+     margin-top: 35px;
+   }
+   article p{
+     text-align: center;
+   }
+
+
+ }
+
+ @media screen and (min-width: 1000px) {
 
  }
 
