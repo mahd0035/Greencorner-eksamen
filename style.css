@@ -25,6 +25,7 @@ header{
 section {
   grid-area: banner;
   background-color: blueviolet;
+
 }
 
 section h1{
@@ -56,14 +57,15 @@ button{
 main{
   background-color: purple;
   grid-area: produkter;
+  margin: 50px;
 }
 
 
 .div-tomat{
   max-width: 300px;
-  margin: auto;
   text-align: center;
-  background-color: cornsilk;
+  background-color:plum;
+  padding-bottom: 30px;
 }
 
 .div-tomat img{
@@ -100,9 +102,8 @@ main{
 
 .div-argurk{
   max-width: 300px;
-  margin: auto;
   text-align: center;
-  background-color: cornsilk;
+  background-color: plum;
 }
 
 .div-argurk img{
@@ -141,9 +142,8 @@ main{
 
 .div-kiwi{
   max-width: 300px;
-  margin: auto;
   text-align: center;
-  background-color: cornsilk;
+  background-color: plum;
 }
 
 .div-kiwi img{
@@ -180,9 +180,8 @@ main{
 
 .div-banan{
   max-width: 300px;
-  margin: auto;
   text-align: center;
-  background-color: cornsilk;
+  background-color: plum;
 }
 
 .div-banan img{
@@ -214,4 +213,34 @@ footer{
   grid-area: footer;
 }
 
+@media screen and (min-width:1024px){
 
+p{
+  color: #03A63C;
+}
+
+main{
+  grid-area: produkter;
+  display: flex;
+  justify-content: space-between;
+}
+
+section h1{
+padding-top: 120px;
+}
+
+section img{
+height: 100%
+}
+
+.grid-container-produkter{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.1fr 30% 1fr 0.1fr ;
+  grid-template-areas:
+  "header"
+  "banner"
+  "produkter"
+  "footer";
+}
+}
