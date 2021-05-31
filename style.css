@@ -94,6 +94,10 @@ main{
   background-color: #ABD904;
 }
 
+#antal-varer{
+visibility: hidden;
+}
+
 /*Argurk START*/
 
 .div-argurk{
