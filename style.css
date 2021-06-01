@@ -256,7 +256,7 @@ main{
 
 
 
-/* The Modal (background) */
+/* Pop up box til Tomat */
 .modal {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
@@ -275,7 +275,7 @@ main{
   height: 300px;
 }
 
-/* Modal Content */
+
 .modal-content {
   background-color: #fefefe;
   margin: auto;
@@ -284,7 +284,8 @@ main{
   width: 50%;
 }
 
-/* The Close Button */
+
+/* Lukke knap */
 .close {
   color: #aaaaaa;
   float: right;
@@ -307,24 +308,12 @@ main{
   text-align: center;
   width: 50%;
   font-size: 18px;
+  /* Pop up box til Tomat ---->SLUT */
 }
 
-.modal p{
-<<<<<<< Updated upstream
-  display: flex;
-}
-=======
- 
->>>>>>> Stashed changes
 
 
-
-
-
-
-
-
-/* The Modal (background) */
+/* Pop up box til Argurk ----->START*/
 .modalArgurk {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
@@ -343,7 +332,7 @@ main{
   height: 300px;
 }
 
-/* Modal Content */
+
 .modal-content-argurk {
   background-color: #fefefe;
   margin: auto;
@@ -352,7 +341,7 @@ main{
   width: 50%;
 }
 
-/* The Close Button */
+/* Lukke knap */
 .close-argurk {
   color: #aaaaaa;
   float: right;
@@ -367,16 +356,22 @@ main{
   cursor: pointer;
 }
 
+.modalArgurk button{
+  border: none;
+  padding: 12px;
+  color: white;
+  background-color: #03A63C;
+  text-align: center;
+  width: 50%;
+  font-size: 18px;
+}
+
+/* Pop up box til Argurk SLUT ------>*/
 
 
 
 
-
-
-
-
-
-/* The Modal (background) */
+/* Pop up box til Kiwi START-----> */
 .modalKiwi {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
@@ -396,7 +391,6 @@ main{
 }
 
 
-/* Modal Content */
 .modal-content-kiwi {
   background-color: #fefefe;
   margin: auto;
@@ -405,7 +399,7 @@ main{
   width: 50%;
 }
 
-/* The Close Button */
+/* Lukke knap */
 .close-kiwi {
   color: #aaaaaa;
   float: right;
@@ -420,16 +414,18 @@ main{
   cursor: pointer;
 }
 
+.modalKiwi button{
+  border: none;
+  padding: 12px;
+  color: white;
+  background-color: #03A63C;
+  text-align: center;
+  width: 50%;
+  font-size: 18px;
+}
+/* Pop up box til Kiwi ----->SLUT */
 
-
-
-
-
-
-
-
-
-/* The Modal (background) */
+/* Pop up box til Banan -----> START */
 .modalBanan {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
@@ -449,7 +445,6 @@ main{
 }
 
 
-/* Modal Content */
 .modal-content-banan {
   background-color: #fefefe;
   margin: auto;
@@ -458,7 +453,7 @@ main{
   width: 50%;
 }
 
-/* The Close Button */
+/* Lukke knap */
 .close-banan {
   color: #aaaaaa;
   float: right;
@@ -473,6 +468,16 @@ main{
   cursor: pointer;
 }
 
+.modalBanan button{
+  border: none;
+  padding: 12px;
+  color: white;
+  background-color: #03A63C;
+  text-align: center;
+  width: 50%;
+  font-size: 18px;
+}
+/* Pop up box til Banan ----->SLUT */
 
 
 /*Footer START----->*/
@@ -542,8 +547,10 @@ main{
   padding-right: 20%;
   color: #999;
   }   
+/* Footer SLUT */
 
 
+/* Media query til Destop */
 @media screen and (min-width:1024px){
 
   header nav{
