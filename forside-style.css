@@ -152,7 +152,70 @@ body{
     grid-area: footer;
   }
 
-
+   .footer {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 50px;
+    color: #fff;
+    background-color: #301818;
+    }
+    
+    .footer > * {
+    flex:  1 100%;
+    }
+    
+    .l-footer {
+    margin-right: 1.25em;
+    margin-bottom: 2em;
+    }
+    
+    h2 {
+    font-weight: 400;
+    font-size: 15px;
+    }
+    
+    .footer ul {
+    list-style: none;
+    padding-left: 0;
+    }
+    
+    .footer li {
+    line-height: 2em;
+    }
+    
+    .footer a {
+    text-decoration: none;
+    }
+    
+    .r-footer {
+    display: flex;
+    flex-flow: row wrap;
+    }
+    
+    .r-footer > * {
+    flex: 1 50%;
+    margin-right: 1.25em;
+    }
+    
+    .box a {
+    color: #999;
+    }
+    
+    .h-box {
+    column-count: 2;
+    column-gap: 1.25em;
+    }
+    
+    .b-footer {
+    text-align: center;
+    color: #999;
+    padding-top: 50px;
+    }
+    
+    .l-footer p {
+    padding-right: 20%;
+    color: #999;
+    }   
 
   @media screen and (min-width: 500px) {
     
@@ -223,70 +286,22 @@ body{
      text-align: center;
    }
 
-   .footer {
-    display: flex;
-    flex-flow: row wrap;
-    padding: 50px;
-    color: #fff;
-    background-color: darkblue;
+   .r-footer > * {
+    flex: 1;
     }
     
-    .footer > * {
-    flex:  1 100%;
+    .features {
+    flex-grow: 2;
     }
     
     .l-footer {
-    margin-right: 1.25em;
-    margin-bottom: 2em;
-    }
-    
-    h2 {
-    font-weight: 400;
-    font-size: 15px;
-    }
-    
-    .footer ul {
-    list-style: none;
-    padding-left: 0;
-    }
-    
-    .footer li {
-    line-height: 2em;
-    }
-    
-    .footer a {
-    text-decoration: none;
+    flex: 1 0px;
     }
     
     .r-footer {
-    display: flex;
-    flex-flow: row wrap;
+    flex: 2 0px;
     }
-    
-    .r-footer > * {
-    flex: 1 50%;
-    margin-right: 1.25em;
     }
-    
-    .box a {
-    color: #999;
-    }
-    
-    .h-box {
-    column-count: 2;
-    column-gap: 1.25em;
-    }
-    
-    .b-footer {
-    text-align: center;
-    color: #999;
-    padding-top: 50px;
-    }
-    
-    .l-footer p {
-    padding-right: 20%;
-    color: #999;
-    }   
 
 
  }
