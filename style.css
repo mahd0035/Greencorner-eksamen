@@ -1,13 +1,13 @@
 
     body {
-    margin: 0;
-    display: grid;
-    font-size: 14px;
-    font-family: 'Poppins', sans-serif;
-    }
-   
-   
+      font-family: 'Roboto', sans-serif;
+      background-color: #f2f0ce;
+      }
+     
+
 /*Header navigation*/
+
+
 
 header{
     grid-area: header;
@@ -41,7 +41,7 @@ header{
   
   
   nav img{
-    width: 80px;
+    width: 120px;
     height: 100%;
     margin-top: 6px;
     grid-area: header;
@@ -55,7 +55,9 @@ header{
     margin-right: auto;
     width: 50%;
   }
+/*Header navigation*/
 
+/*Kontaktformular*/
 
   .container{
       width: 80%;
@@ -63,7 +65,7 @@ header{
   }
 
   .contact-box{
-      background: #fff;
+      background: rgb(255, 255, 255);
       display: flex;
   }
 
@@ -75,8 +77,8 @@ header{
   .contact-right{
     flex-basis: 40%;
     padding: 40px;
-    background: #1c00b5;
-    color: #fff;
+    background: #f2b705;
+    color: #000000;
 }
 
 h1{
@@ -117,17 +119,17 @@ textarea{
 label{
     margin-bottom: 6px;
     display: block;
-    color: #1c00b5;
+    color: #f2b705;
 }
 
 button{
-    background: #1c00b5;
+    background: #03a63c;
     width: 100px;
     border: none;
     outline: none;
     color: #fff;
     height: 35px;
-    border-radius: 30px;
+    border-radius: 8px;
     margin-top: 20px;
     box-shadow: 0px 5px 15px 0px rgba(20,0,181,0.3);
 
@@ -135,7 +137,7 @@ button{
 }
 
 .contact-left h3{
-    color: #1c00b5;
+    color: #f2b705;
     font-weight: 600;
     margin-bottom: 30px;
 
@@ -158,13 +160,17 @@ tr td{
     padding-top: 20px;
 }
 
+/*Kontaktformular*/
+
+/*Footer*/
 
     .footer {
     display: flex;
     flex-flow: row wrap;
     padding: 50px;
     color: #fff;
-    background-color: darkblue;
+    background-color: #301818;
+
     }
     
     .footer > * {
@@ -242,3 +248,4 @@ tr td{
     }
     }
     
+    /*Footer*/
