@@ -308,9 +308,12 @@ main{
   text-align: center;
   width: 50%;
   font-size: 18px;
-  /* Pop up box til Tomat ---->SLUT */
 }
 
+.modal button:hover {
+  background-color: #ABD904;
+}
+/* Pop up box til Tomat ---->SLUT */
 
 
 /* Pop up box til Argurk ----->START*/
@@ -364,6 +367,10 @@ main{
   text-align: center;
   width: 50%;
   font-size: 18px;
+}
+
+.modalArgurk button:hover {
+  background-color: #ABD904;
 }
 
 /* Pop up box til Argurk SLUT ------>*/
@@ -423,6 +430,10 @@ main{
   width: 50%;
   font-size: 18px;
 }
+
+.modalKiwi button:hover {
+  background-color: #ABD904;
+}
 /* Pop up box til Kiwi ----->SLUT */
 
 /* Pop up box til Banan -----> START */
@@ -476,6 +487,10 @@ main{
   text-align: center;
   width: 50%;
   font-size: 18px;
+}
+
+.modalBanan button:hover {
+  background-color: #ABD904;
 }
 /* Pop up box til Banan ----->SLUT */
 
