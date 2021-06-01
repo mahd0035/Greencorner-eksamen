@@ -271,13 +271,17 @@ main{
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
 
+.modal img{
+  height: 300px;
+}
+
 /* Modal Content */
 .modal-content {
   background-color: #fefefe;
   margin: auto;
   padding: 20px;
   border: 1px solid #888;
-  width: 80%;
+  width: 50%;
 }
 
 /* The Close Button */
@@ -293,6 +297,20 @@ main{
   color: #000;
   text-decoration: none;
   cursor: pointer;
+}
+
+.modal button{
+  border: none;
+  padding: 12px;
+  color: white;
+  background-color: #03A63C;
+  text-align: center;
+  width: 50%;
+  font-size: 18px;
+}
+
+.modal p{
+  display: flex;
 }
 
 
@@ -317,13 +335,17 @@ main{
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
 
+.modalArgurk img{
+  height: 300px;
+}
+
 /* Modal Content */
 .modal-content-argurk {
   background-color: #fefefe;
   margin: auto;
   padding: 20px;
   border: 1px solid #888;
-  width: 80%;
+  width: 50%;
 }
 
 /* The Close Button */
@@ -336,6 +358,112 @@ main{
 
 .close-argurk:hover,
 .close-argurk:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+/* The Modal (background) */
+.modalKiwi {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modalKiwi img{
+  height: 300px;
+}
+
+
+/* Modal Content */
+.modal-content-kiwi {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%;
+}
+
+/* The Close Button */
+.close-kiwi {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close-kiwi:hover,
+.close-kiwi:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+/* The Modal (background) */
+.modalBanan {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modalBanan img{
+  height: 300px;
+}
+
+
+/* Modal Content */
+.modal-content-banan {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%;
+}
+
+/* The Close Button */
+.close-banan {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close-banan:hover,
+.close-banan:focus {
   color: #000;
   text-decoration: none;
   cursor: pointer;
