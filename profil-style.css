@@ -138,6 +138,7 @@ footer{
     display: flex;
     flex-flow: row wrap;
     padding: 50px;
+    height: 20%;
     color: #fff;
     background-color: #301818;
     }
@@ -199,6 +200,22 @@ footer{
     color: #999;
     }   
 
-    @media screen and (max-width: 1000px) {
-    
-}
+    @media screen and (min-width: 600px) {
+        .r-footer > * {
+        flex: 1;
+        }
+        
+        .features {
+        flex-grow: 2;
+        }
+        
+        .l-footer {
+        flex: 1 0px;
+        }
+        
+        .r-footer {
+        flex: 2 0px;
+        }
+
+    }
+        
