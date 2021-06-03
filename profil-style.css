@@ -221,5 +221,23 @@ footer{
         flex: 2 0px;
         }
 
+
+        header nav{
+            justify-content: space-evenly;
+            margin-top: px;
+        
+          }
+        
+          nav img{
+            width: 120px;
+          }
+          
+          nav button{
+            margin-top: 10px;
+            height: 50px;
+            width: 100px;
+          }
+        
+
     }
         
