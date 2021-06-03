@@ -64,7 +64,6 @@ header{
 width: 360px; 
 height: 300px; 
 margin: auto; 
-border-radius: 3px; 
 background-color: white; 
 
 }
@@ -90,13 +89,14 @@ form{
 
 form label {
     display: flex; 
-    margin-top: 20px; 
-    font-size: 18px; 
+    margin-top: 15px; 
+    font-size: 15px; 
 }
 
 form input {
     width: 100%; 
-    padding: 7px; 
+    margin-top: 5px; 
+    padding: 6px; 
     border: none; 
     border: 1px solid grey; 
     border-radius: 6px;
@@ -104,9 +104,9 @@ form input {
 }
 
 input[type="button"]{
-    width: 320px; 
+    width: 315px; 
     height: 35px; 
-    margin-top: 20px; 
+    margin-top: 30px; 
     border: none; 
     background-color: #03A63c; 
     color: white; 
