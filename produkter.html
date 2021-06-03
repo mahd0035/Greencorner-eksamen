@@ -1,0 +1,185 @@
+<!DOCTYPE html> 
+<html lang="da">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <meta name="description" content="Produktside til varer, såsom grøntsager og frugt">
+        <meta name="keywords" content="Produkter, varer, frugt, grønt, mad">
+        <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+        <title>Produkter</title>
+        <link rel="stylesheet" href="style.css"> 
+        <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    </head>
+
+    <!--Indhold til produktside START-->
+    <body>
+        <div class="grid-container-produkter"> 
+            <header>
+                <nav>
+                  <button>
+                    <a href="">Produkter</a></button>
+                    <button><a href="">Om os</a></button>
+                    <a href="Forside.html"><img src="./imgaes/Greencorner-logo.png"></a>
+                    <button><a href="">Kontakt os</a></button>
+                    <button><a href="">Min profil</a></button>
+                  </nav>
+            </header>
+
+            <section>
+                <h1>Produkter</h1>
+                <img src="./imgaes/grontsager.jpg" alt="banner billede">
+            </section>
+
+
+
+
+            <main>
+                <div class="div-tomat">
+                    <img id="myBtnTomat" src="./imgaes/tomat.jpg" alt="Tomat">
+                    <h1>Tomater</h1>
+                    <p class="pris">2.00 DKK</p>
+                    <p>Friske danske tomater. <br>2.00 DKK per stk.</p>
+                    <button class="kob-knap">Tilføj til kurv</button>
+                </div>
+                
+
+                <div class="div-argurk">
+                    <img id="myBtnArgurk" src="./imgaes/argurk.jpg" alt="Argurk">
+                    <h1>Agurk</h1>
+                    <p class="pris">5.00 DKK</p>
+                    <p>Friske danske agurker. <br>5.00 DKK per stk.</p>
+                    <button class="kob-knap">Tilføj til kurv</button>
+                </div>
+        
+                <div class="div-kiwi">
+                    <img id="myBtnKiwi" src="./imgaes/kiwi.jpg" alt="Kiwi">
+                    <h1>Kiwi</h1>
+                    <p class="pris">3.00 DKK</p>
+                    <p>Friske danske kiwier. <br>3.00 DKK per stk.</p>
+                    <button class="kob-knap">Tilføj til kurv</button>
+                </div>
+        
+
+                <div class="div-banan">
+                    <img id="myBtnBanan" src="./imgaes/banan.png" alt="Banan">
+                    <h1>Bananer</h1>
+                    <p class="pris">10.00 DKK</p>
+                    <p>Friske danske tomater. <br>10.00 DKK per klase.</p>
+                    <button class="kob-knap">Tilføj til kurv</button>
+                </div>
+
+
+
+
+
+                <!-- pop up box til Tomat -->
+                <div id="myModal" class="modal">
+
+                
+                  <div class="modal-content">
+                      <span class="close">&times;</span>
+                       <img src="./imgaes/tomat.jpg" alt="Tomat">
+                       <p>Friske danske tomater.
+                        2.00 DKK per stk.</p>
+                       <button class="kob-knap">Tilføj til kurv</button>
+                  </div>
+                </div>
+
+
+
+                     <!-- pop up box til Agurk -->
+                     <div id="myModalArgurk" class="modalArgurk">
+
+                       
+                        <div class="modal-content-argurk">
+                            <span class="close-argurk">&times;</span>
+                             <img src="./imgaes/argurk.jpg" alt="Argurk">
+                             <p>Friske danske agurker.
+                                5.00 DKK per stk.</p>
+                             <button class="kob-knap">Tilføj til kurv</button>
+                             
+                        </div>
+                      </div>
+
+
+                <!-- pop up box til Kiwi -->
+                <div id="myModalKiwi" class="modalKiwi">
+
+                    
+                    <div class="modal-content-kiwi">
+                        <span class="close-kiwi">&times;</span>
+                         <img src="./imgaes/kiwi.jpg" alt="Kiwi">
+                         <p>Friske danske kiwier.
+                            3.00 DKK per stk.</p>
+                         <button class="kob-knap">Tilføj til kurv</button>
+                    </div>
+                  </div>
+
+                <!-- pop up box til Banan -->
+                <div id="myModalBanan" class="modalBanan">
+
+               
+                    <div class="modal-content-banan">
+                        <span class="close-banan">&times;</span>
+                         <img src="./imgaes/banan.png" alt="Banan">
+                         <p>Friske danske bananer.
+                            10.00 DKK per klase.</p>
+                         <button class="kob-knap">Tilføj til kurv</button>
+                    </div>
+                  </div>
+
+                
+
+            </main>
+
+         <footer class="footer">
+               <div class="l-footer">
+                   <h1><img src="./imgaes/Greencorner-logo.png" alt="greencorner logo"></h1>
+                   <p>Green Corner er en familieejet virksomhed som blev grundlagt i 2013. Til daglig sælger Green Corner et hav af varer, alt fra thai til dansk. Har du travlt i hverdagene, og kan bare ikke nå at handle ind? Tøv ej, Green Corner leverer dine varer til døren. Vi er blot et opkald væk! </p>
+               </div>
+                  <ul class="r-footer">
+              <li>
+           
+             <h2>Sociale medier</h2>
+         <ul class="box">
+         <li><a href="#">Facebook</a></li>
+         <li><a href="#">Instagram</a></li>
+         </ul>
+         </li>
+             <li class="features">
+           
+             <h2>Information</h2>
+          <ul class="box h-box">
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">Priser</a></li>
+                  <li><a href="#">Erhvervsaftaler</a></li>
+                  <li><a href="#">Frugt og grønt</a></li>
+                  <li><a href="#">Om os</a></li>
+                  <li><a href="#">Kundeservice</a></li>
+              </ul>
+            </li>
+         <li>
+         
+             <h2>Brugsrettigheder</h2>
+             <ul class="box">
+                <li><a href="#">Vilkår</a></li>
+                <li><a href="#">Rettigheder</a></li>
+                <li><a href="#">Kontakt</a></li>
+              </ul>
+           </li>
+         </ul>
+         <div class="b-footer">
+         <p>
+         Alle rettigheder er reserveret til ©Green Corner 2021 </p>
+         </div>
+         </footer>
+        </div>
+      <script src="jquery.js"></script>
+      <script src="main.js"></script>
+
+    </body>
+
+
+
+</html>
