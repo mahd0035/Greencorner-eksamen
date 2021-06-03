@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="da">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <meta name="description" content="Dette er forsiden til greencorner hjemmeside">
+        <meta name="keywords" content="Forside,ugens tilbud, pickup-system, grønthandler,">
+        <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+        <title>Forside</title>
+        <link rel="stylesheet" href="forside-style.css"> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      </head> 
+        
+ <body>  
+     
+  <!--Navigationsbar starter her-->  
+<header>
+    <nav>
+      <button>
+        <a href="">Produkter</a></button>
+        <button><a href="">Om os</a></button>
+        <a href="Forside.html"><img src="images/Greencorner-logo.png"></a>
+        <button><a href="">Kontakt os</a></button>
+        <button><a href="">Min profil</a></button>
+      </nav>
+</header>
+
+<!--Section greencorner blikfangsbillede frugt/grønt-->
+<section>
+<img src="images/sven-scheuermeier-4R1YpmGO52I-unsplash.png">
+</section>
+
+<main>
+<h2>Ugens tilbud</h2>
+
+<!--produkter varianter-->
+
+<!--make pic zoom when hover maybe jqurey/javascript-->
+
+<div class="tilbudpic">
+  <div class="innerpic"> 
+
+  <div class="overlaytext"><h4>Rabarber</h4><a href="#"><button>Læs mere</button></a></div>
+        <img src="Images/rabarber.png" alt="">
+  
+  <div class="overlaytext"><h4> Økologiske æbler</h4><a href="#"><button>Læs mere</button></a></div>
+        <img src="Images/apples.jpg" alt="">
+  
+  <div class="overlaytext"><h4>Nøddemix</h4><a href="#"><button>Læs mere</button></a></div>
+        <img src="Images/nøddemix.jpg" alt="">
+  
+  
+  </div>
+  <div class="innerpic">
+  
+  <div class="overlaytext"><h4>Rosmarin</h4><a href="#"><button>Læs mere</button></a></div>
+       <img src="Images/rosemary-74365_1280.jpg" alt="">
+    
+  <div class="overlaytext"><h4>Titel</h4><a href="#"><button>Læs mere</button></a></div>
+        <img src="Images/banan2.PNG.jpg" alt="">
+  
+  <div class="overlaytext"><h4>Titel</h4><a href="#"><button>Læs mere</button></a></div>
+        <img src="Images/sven-scheuermeier-4R1YpmGO52I-unsplash.jpg" alt="">
+  
+  </div>
+
+  <div class="innerpic">
+
+  <div class="overlaytext"><h4>Titel</h4><a href="#"><button>Læs mere</button></a></div>
+        <img src="Images/sven-scheuermeier-4R1YpmGO52I-unsplash.jpg" alt="">
+  <div class="overlaytext"><h4>Titel</h4><a href="#"><button>Læs mere</button></a></div>
+        <img src="Images/sven-scheuermeier-4R1YpmGO52I-unsplash.jpg" alt="">
+  <div class="overlaytext"><h4>Titel</h4><a href="#"><button>Læs mere</button></a></div>
+        <img src="Images/sven-scheuermeier-4R1YpmGO52I-unsplash.jpg" alt="">
+  </div>
+
+</div>
+
+
+<!--jqury animation for hover effekt over ugens tlbud-->
+
+<script> 
+  $(document).ready(function(){
+    $("innerpic").hover(function(){
+      $("overlaytext").animate({
+        height: 'toggle'
+      });
+    });
+  });
+  </script> 
+
+
+</main>
+
+<!--article afsnit -->
+
+<article>
+<h2 class="OGC">Om Green Corner</h2>
+<p>
+  GreenCorner er en grønthandler som blev grundlagt i 2013, GreenCorner ejes af Jaffar. Virksomheden er beliggende på Østerbro i København, 
+  og sælger alt fra frugt og grønt til blomster og kolonialvarer. Til dagligt bliver virksomheden drevet af Jaffer selv, 
+  men om aftenen har han en ansat til at tage over. De er i alt 3 ansatte til at tage varer på butikken. Grønthandleren ønsker udelukkende kun, 
+  at sælge friske varer og som han selv afhenter på Grønttorvet. De ønsker at blive mere digitale, for at få deres virksomhedsnavn ud til flere borgere, 
+  da en masse af deres omsætning er blevet tabt under Covid-19. 
+</p>
+</article>
+
+<!--footer-->
+
+
+  <footer class="footer">
+    <div class="l-footer">
+
+   <h1><img src="billeder/green.png" alt=""></h1>
+ <p>Green Corner er en familieejet virksomhed som blev grundlagt i 2013. Til daglig sælger Green Corner et hav af varer, alt fra thai til dansk. Har du travlt i hverdagene, og kan bare ikke nå at handle ind? Tøv ej, Green Corner leverer dine varer til døren. Vi er blot et opkald væk! </p>
+</div>
+     <ul class="r-footer">
+<li>
+
+ <h2>Sociale medier</h2>
+<ul class="box">
+<li><a href="#">Facebook</a></li>
+<li><a href="#">Instagram</a></li>
+</ul>
+</li>
+ <li class="features">
+
+ <h2>Information</h2>
+<ul class="box h-box">
+      <li><a href="#">Blog</a></li>
+      <li><a href="#">Priser</a></li>
+      <li><a href="#">Erhvervsaftaler</a></li>
+      <li><a href="#">Frugt og grønt</a></li>
+      <li><a href="#">Om os</a></li>
+      <li><a href="#">Kundeservice</a></li>
+  </ul>
+</li>
+<li>
+
+ <h2>Brugsrettigheder</h2>
+ <ul class="box">
+    <li><a href="#">Vilkår</a></li>
+    <li><a href="#">Rettigheder</a></li>
+    <li><a href="#">Kontakt</a></li>
+  </ul>
+</li>
+</ul>
+<div class="b-footer">
+<p>
+Alle rettigheder er reserveret til ©Green Corner 2021 </p>
+</div>
+</footer>
+
+</body>
+</html>
