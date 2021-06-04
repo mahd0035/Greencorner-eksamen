@@ -111,6 +111,7 @@ main{
 .div-tomat img{
   width: 100%;
   transition: transform .2s;
+  cursor: pointer;
 }
 
 .div-tomat img:hover{
@@ -149,6 +150,7 @@ main{
 .div-argurk img{
   width: 100%;
   transition: transform .2s;
+  cursor: pointer;
 }
 
 .div-argurk img:hover{
@@ -189,6 +191,7 @@ main{
 .div-kiwi img{
   width: 100%;
   transition: transform .2s;
+  cursor: pointer;
 }
 
 .div-kiwi img:hover{
@@ -222,6 +225,7 @@ main{
 .div-banan img{
   width: 100%;
   transition: transform .2s;
+  cursor: pointer;
 }
 
 .div-banan img:hover{
